@@ -1,0 +1,41 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{0C5B0CED-206B-4c39-B615-0EB23C824612}]
+
+[HKEY_CLASSES_ROOT\CLSID\{0C5B0CED-206B-4c39-B615-0EB23C824612}\InProcServer32]
+@="C:\\Program Files\\Common Files\\Adobe\\Shell\\AIIcon.dll"
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{0C5B0CED-206B-4c39-B615-0EB23C824612}\MiscStatus]
+"IconBits"="16"
+
+[HKEY_CLASSES_ROOT\.ai\ShellEx]
+
+[HKEY_CLASSES_ROOT\.ai\ShellEx\{BB2E617C-0920-11d1-9A0B-00C04FC2D6C1}]
+@="{0C5B0CED-206B-4c39-B615-0EB23C824612}"
+
+[HKEY_CLASSES_ROOT\.eps\ShellEx]
+
+[HKEY_CLASSES_ROOT\.eps\ShellEx\{BB2E617C-0920-11d1-9A0B-00C04FC2D6C1}]
+@="{0C5B0CED-206B-4c39-B615-0EB23C824612}"
+
+[HKEY_CLASSES_ROOT\Adobe.Illustrator.EPS\shellex]
+
+[HKEY_CLASSES_ROOT\Adobe.Illustrator.EPS\shellex\Ic onHandler]
+@="{0C5B0CED-206B-4c39-B615-0EB23C824612}"
+
+[HKEY_CLASSES_ROOT\Adobe.Illustrator.EPS\shellex\Pr opertySheetHandlers]
+
+[HKEY_CLASSES_ROOT\Adobe.Illustrator.EPS\shellex\Pr opertySheetHandlers\AIPage]
+@="{0C5B0CED-206B-4c39-B615-0EB23C824612}"
+
+[HKEY_CLASSES_ROOT\Adobe.Illustrator.12\shellex]
+
+[HKEY_CLASSES_ROOT\Adobe.Illustrator.12\shellex\Ico nHandler]
+@="{0C5B0CED-206B-4c39-B615-0EB23C824612}"
+
+[HKEY_CLASSES_ROOT\Adobe.Illustrator.12\shellex\Pro pertySheetHandlers]
+
+[HKEY_CLASSES_ROOT\Adobe.Illustrator.12\shellex\Pro pertySheetHandlers\AIPage]
+@="{0C5B0CED-206B-4c39-B615-0EB23C824612}"
+

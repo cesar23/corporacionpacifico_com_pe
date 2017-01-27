@@ -1,0 +1,263 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+
+
+}
+
+.modal_enviando {   
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+ .modal-content_enviando {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 11px;
+      
+        width: 120px;
+        height: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s;
+        border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+       
+
+    }
+
+/* Modal Content */
+/*.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+    }*/
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        /*padding: 0;*/
+        border: 1px solid #888;
+        width: 700px;
+        height: 320px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s;
+        /*----agregados---*/
+        background: url(img/newsletter_popup_bg.jpg) no-repeat;
+        /*margin: 0px 0px 0px 0px;*/
+
+        padding: 0px 0px 0px; 
+        border-top: 4px solid #08c;
+        text-align: left;
+
+    }
+
+
+    .modal-content .block-content {
+        max-width: 312px;
+        text-align: center;
+    }
+
+    .modal-content-mensaje {
+        position: relative;
+        background-color: transparent;
+        margin: auto;
+        padding: 0;
+        /*border: 1px solid #888;*/
+        width: 20%;
+
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+    }
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+        from {top:-300px; opacity:0} 
+        to {top:0; opacity:1}
+    }
+
+    @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+    }
+
+    /* The Close Button */
+    .close_modal {
+   /*
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    */
+}
+
+
+.close_modal:hover,
+.close_modal:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal_header {
+   background-color: transparent;
+  /* padding: 2px 16px;   
+   color: white;*/
+}
+
+.modal_body {padding: 2px 16px;}
+
+.modal_footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/*----------- Alert model -------------*/
+.alert-box_modal {
+    color:#555;
+    border-radius:10px;
+    font-family:Tahoma,Geneva,Arial,sans-serif;font-size:11px;
+    padding:10px 36px;
+    margin:10px;
+}
+.alert-box_modal span {
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.error_modal {
+    background:#ffecec url('img/error.png') no-repeat 10px 50%;
+    border:1px solid #f5aca6;
+}
+.success_modal {
+    background:#e9ffd9 url('img/success.png') no-repeat 10px 50%;
+    border:1px solid #a6ca8a;
+}
+.warning_modal {
+    background:#fff8c4 url('img/warning.png') no-repeat 10px 50%;
+    border:1px solid #f2c779;
+}
+.notice_modal {
+    background:#e3f7fc url('img/notice.png') no-repeat 10px 50%;
+    border:1px solid #8ed9f6;
+}
+    /*
+<div class="alert-box error"><span>error: </span>Write your error message here.</div>
+    <div class="alert-box success"><span>success: </span>Write your success message here.</div>
+    <div class="alert-box warning"><span>warning: </span>Write your warning message here.</div>
+    <div class="alert-box notice"><span>notice: </span>Write your notice message here.</div>
+    */
+
+     #suscripcion_popup h2 {
+        font-weight: 700;
+        color: #313131;
+        font-size: 16px;
+        line-height: 1;
+        margin: 30px 0 12px
+    }
+
+    #suscripcion_popup p {
+        font-size: 13px;
+        line-height: 1.4
+    }
+
+    #suscripcion_popup .input-box {
+        padding: 0
+    }
+
+    #suscripcion_popup input.input-text {
+        float: left;
+        padding: 2px 13px;
+        line-height: 30px;
+        width: 100%
+    }
+
+    #suscripcion_popup button.button {
+        float: left;
+        margin-left: -55px;
+        position: relative;
+        z-index: 1;
+        width: 55px;
+        border-left: 1px solid #ccc
+    }
+
+    #suscripcion_popup button.button span {
+        height: 34px;
+        background-color: transparent;
+        color: #555;
+        line-height: 34px;
+        padding: 0;
+        text-align: center
+    }
+
+    #suscripcion_popup .subscribe-bottom {
+        position: absolute;
+        bottom: 30px
+    }
+
+    #suscripcion_popup .subscribe-bottom label {
+        font-size: 11px
+    }
+
+
+    #suscripcion_popup .form-group {
+        margin-bottom: 5px;
+    }
+
+    #suscripcion_popup .input-sm {
+        height: 27px;
+        padding: 8px 7px;
+        font-size: 10px;
+        line-height: 1.5;
+    }
+
+
+     .error_validate{
+        color:red;
+        font-size: 9px;
+    }
+    .error_validate  li{
+        list-style: none;
+        color:red;
+        font-size: 9px;
+        margin-bottom: -9px;
+    }
+    .error_validate  ul{
+        list-style: none;
+        color:red;
+        font-size: 9px;
+    }

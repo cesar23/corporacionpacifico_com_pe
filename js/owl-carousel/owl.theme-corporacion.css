@@ -1,0 +1,55 @@
+.parnerts-carousel .item{
+  margin: 3px;
+}
+.parnerts-carousel .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*---------------*/
+
+
+.parnerts-carousel .owl-item.active {
+    transform: scale(1);
+    opacity: 1
+}
+
+.parnerts-carousel .owl-next,
+.parnerts-carousel .owl-prev {
+    font-size: 13px;
+    line-height: 35px;
+    position: absolute;
+    top: 59%;
+    padding: 0 10px;
+    transition: all ease-out .25s;
+    transform: translateY(-100%);
+    filter: Alpha(Opacity=50);/*IE7 fix*/
+
+    opacity: 0.5;
+    color: #fff;
+    border-radius: 3px;
+    background: #171719
+}
+
+.parnerts-carousel .owl-next:hover,
+.parnerts-carousel .owl-prev:hover {
+    color: #fff;
+    background: #615e6b
+}
+
+.parnerts-carousel .owl-prev {
+
+    top: 40px;
+    left: -30px
+}
+
+.parnerts-carousel .owl-next {
+
+    top: 40px;
+    right: -30px;
+}
+
+.parnerts-carousel .owl-next.disabled,
+.parnerts-carousel .owl-prev.disabled {
+    opacity: 0
+}

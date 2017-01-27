@@ -1,0 +1,35 @@
+User-Agent: *
+#URLS------
+Disallow: /admin
+Disallow: /tienda
+Disallow: /card
+#CARPETAS-----
+Disallow: /config/
+Disallow: /admin/
+Disallow: /template-01/
+Disallow: /sistema_luper/
+Disallow: /tmp/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /assets/
+Disallow: /bootstrap/
+Disallow: /js/
+Disallow: /js_apis/
+Disallow: /menu_mobil/
+Disallow: /mp3/
+Disallow: /RESOURCE/
+Disallow: /assets_admin/
+Disallow: /mp3/
+
+
+Disallow: /phpinfo.php
+
+Disallow: /mantenimiento.html
+Disallow: /mantenimiento.php
+
+
+
+Disallow: /*.pdf$
+Disallow: /*.swf$
+Disallow: /*.sql$
+Disallow: /*.zip$

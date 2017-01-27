@@ -1,0 +1,32 @@
+ESPAÑOL:
+
+Instrucciones de instalación:
+
+1.- Mete el archivo aiicon.dll en la carpeta (si no existe creala): 
+C:\Archivos de programa\Archivos comunes\Adobe\Shell
+
+2.- Haz doble click en el arvhivo: Photoshop_thumbnail.reg y acepta.
+
+Saludos.
+SOSNewbie.com
+
+
+PS: Úsalo bajo tu propia responsabilidad, en mi caso funciona sin ningún problema.
+
+_________________________________________________________________________________
+
+ENGLISH:
+
+To install:
+
+1) Place the aiicon.dll files in C:\Program Files\Common Files\Adobe\Shell (if it doesnt exist, create it)
+2) Run the registry file
+
+No guarantees. All care, no responsibility. 
+
+************
+  WARNING!
+************
+
+Registry Editing is a black art. If your PC turns into a large Blancmange, 
+we can't be held responsible. Good Luck!

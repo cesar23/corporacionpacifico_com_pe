@@ -1,0 +1,317 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+}
+#principal #contenido {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#cabecera {
+	padding-top: 15px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+}
+#cabecera p {
+	margin-top: -3px;
+}
+
+
+#cab_izq {
+	width: 400px;
+	float: left;
+}
+#cab_der {
+	width: 500px;
+	margin-left: 400px;
+	text-align: right;
+}
+#text_mov {
+	color: #FFF;
+	background-color: #333;
+	height: 20px;
+	padding-top: 7px;
+	margin-bottom: 10px;
+}
+
+#banner {
+	height: 325px;
+	width: 900px;
+	background-color: #fff;
+}
+
+
+
+/*menu*/
+#menu_int {
+	width: 900px;
+	height: 40px;
+	background-color: #1380b4;
+}
+
+#menu {
+	width: 900px;
+	margin-top: auto;
+	margin-bottom: auto;
+
+} 
+ul#menu{
+	width: 570px;
+	padding: 0px;
+	
+} 
+ul#menu li {
+	list-style-type: none;
+	float: left;
+} 
+
+#menu li a{
+	display: block;
+	height: 30px;
+	text-align: center;
+	font-family: "Segoe UI", Tahoma, Arial;
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	
+} 
+#menu li a:hover {
+	background-color: #89c0d9;
+	color: #001c7d;
+} 
+#menu li a.active {
+	background-color: #89c0d9;
+	color: #001c7d;
+} 
+/*menu*/
+#buscar {
+	font-family: "Segoe UI", Tahoma, Arial;
+	color: #FFF;
+	font-size: 13px;
+}
+#cuerpo_izq {
+	padding: 20px;
+	width: 560px;
+	background-color: #f6f7f8;
+	float: left;
+}
+#cuerpo {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 19px;
+	color: #333;
+}
+
+#cuerpo_der {
+	width: 240px;
+	background-color: #f6f7f8;
+	margin-left: 620px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+#cuerpo_contenido {
+	margin-bottom: 25px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D6D6D6;
+	padding-bottom: 15px;
+}
+
+.texto_area {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #1380b4;
+}
+
+.texto_titulo {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 20px;
+	color: #10639f;
+	line-height: 25px;
+}
+
+.texto_fecha {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #716858;
+}
+#ver_mas a   {
+	background-image: url(../images/fnd_ver_mas.jpg);
+	height: 20px;
+	width: 60px;
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 12px;
+	padding-left: 5px;
+}
+.titulo_lat {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 20px;
+	color: #1380B4;
+	font-weight: lighter;
+}
+.titulo_lat_2 {
+	font-family: "Segoe UI", Tahoma, Arial;
+	font-size: 16px;
+	color: #003366;
+	font-weight: lighter;
+	line-height: 20px;
+}
+
+#contenido_lat {
+	margin-bottom: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DFE2E6;
+	padding-bottom: 15px;
+}
+#clear {
+	clear: both;
+}
+#pie {
+	background-color: #10639f;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	padding-top: 10px;
+	color: #FFF;
+}
+#menu_pie a  {
+	color: #FFF;
+	text-decoration: none;
+	padding-right: 25px;
+	padding-left: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+	float: left;
+	text-align: center;
+}
+#menu_pie {
+	margin-left: 160px;
+}
+
+.pie_copy {
+	background-color: #004771;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+<TITLE>Documento sin t&iacute;tulo</TITLE>
+.caja_1 {
+	height: 30px;
+	width: 500px;
+	margin-bottom: 10px;
+}
+.caja_1 {
+	height: 30px;
+	width: 460px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.caja_2 {
+	height: 30px;
+	width: 110px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.area_texto {
+	height: 150px;
+	width: 460px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+#int_conten_img {
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 3px;
+}
+#int_conten_txt {
+	padding-right: 10px;
+	text-align: justify;
+}
+#num_paginacion {
+	width: 340px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Segoe UI", Tahoma, Arial;
+	font-size: 12px;
+}
+
+#num_paginacion a {
+	height: 17px;
+	display: block;
+	float: left;
+	margin-right: 2px;
+	margin-left: 2px;
+	padding-right: 7px;
+	padding-left: 7px;
+	border: 1px solid #2F78BC;
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 2px;
+	background-color: #10639F;
+	padding-bottom: 2px;
+}
+#num_paginacion a:hover {
+	border: 1px solid #2F78BC;
+	text-decoration: none;
+	background-color: #004771;
+}
+#num_paginacion_active {
+	height: 17px;
+	display: block;
+	float: left;
+	margin-right: 2px;
+	margin-left: 2px;
+	padding-right: 7px;
+	padding-left: 7px;
+	border: 1px solid #2F78BC;
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 2px;
+	background-color: #09F;
+	padding-bottom: 2px;
+}
+#contador_visitas {
+	background-color: #FFFFFF;
+	font-size: 15px;
+	border: 1px solid #D6D6D6;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+.num_visita {
+	color: #10639F;
+	letter-spacing: 2px;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+	.copy {
+		background-color:#404040;
+		color:#ccc;
+		font-size:0.7em;
+
+			
+			padding:10px 0; 
+		}
+	.barra-copy {
+		top:0px;
+		height:0.2em;
+		background-color:#fff  ;
+		
+		}

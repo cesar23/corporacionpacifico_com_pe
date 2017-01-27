@@ -1,0 +1,6 @@
+echo "# corporacionpacifico_com_pe" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:cesar23/corporacionpacifico_com_pe.git
+git push -u origin master

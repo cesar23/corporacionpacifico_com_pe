@@ -1,0 +1,15 @@
+.svn
+
+*/config/local
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
+
+*/f/*.htm
+*/f/*.html
+*.zip
+#no se comitearan por que son repositorios ya
+corporacionpacifico_com_pe
+instagram
+tutorial_autenticacion_Token_OAuth

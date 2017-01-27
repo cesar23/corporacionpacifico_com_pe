@@ -1,0 +1,115 @@
+.caja-redes {
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+    /*width: 350px;*/
+}
+.caja-redes a {
+	text-align: center;
+	font-size: 19px;
+}
+.icon-button {
+	/*background-color: white;*/
+	border-radius: 3em;
+	cursor: pointer;
+	display: inline-block;
+	height: 2em;
+	line-height:13m;
+	margin: 0 0px;
+	position: relative;
+	width: 2em;
+}
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 2.3em;
+	height: 2.3em;
+	border-radius: 2.3em;
+	margin: -1.15em;/*posicion donde inicia el cirsulo*/
+}
+.linkedin {
+	
+	background-color: #2568bb;
+	
+}
+.pinterest {	
+	background-color: #ca5055;
+	
+}
+
+.twitter {	
+	background-color: #5dc8ff;
+	
+}
+.facebook {	
+	background-color: #587aca;
+	
+}
+.google-plus  {
+	background-color: #ed4e0f;
+}
+
+    
+.linkedin span {
+
+	background-color: #4393BB;
+}
+.pinterest span {
+
+	background-color: #C92228;
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.google-plus span {
+	background-color: #db5a3c;
+}
+/* Iconos */
+/*-posiciones de los texto**/
+.icon-button i {
+	background: none;
+	color: white;
+	left: 0;
+	line-height: 2em;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	width: 2.0em;
+	z-index: 2;
+}
+.icon-button .fa-linkedin {
+	/*color: #4393BB;*/
+}
+.icon-button .fa-pinterest {
+	/*color: #C92228;*/
+}
+.icon-button .fa-twitter {
+	/*color: #4099ff;*/
+}
+.icon-button .fa-facebook {
+	/*color: #3B5998;*/
+}
+.icon-button .fa-google-plus {
+	/*color: #db5a3c;*/
+}
+.icon-button:hover .fa-linkedin, .icon-button:hover .fa-pinterest, .icon-button:hover .fa-twitter, .icon-button:hover .fa-facebook, .icon-button:hover .fa-google-plus {
+	color: white;
+}
