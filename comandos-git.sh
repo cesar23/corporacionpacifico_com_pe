@@ -20,7 +20,7 @@ git push -u origin master
 
 git remote add origin git@github.com:cesar23/corporacionpacifico_com_pe.git
 #git push -u origin master
-git pull -u origin master
+git pull -u origin master #--------IMPORTANTE
 
 
 #---------- para cuando ya estea  todo bajado solo se remite a comitear loas cambios
