@@ -34,6 +34,14 @@ if($objFun->get_token()!=$request->token){
 @$telefono_mail = trim($request->telefono);
 @$comentario_mail = trim($request->comentario);
 
+require_once("Librerias/NoDBClass.php");
+$objNOSQL= new NoDBClass();
+$data['id']=time();
+$data['fecha']=date("Y-m-d H:i:s");
+$data['nombre']=$cliente_nombre;
+$data['email']=$cliente_mail;
+$objNOSQL->guardar($data);
+
 
    // @$pass = $request->pass;
 
@@ -113,13 +121,7 @@ if($objFun->get_token()!=$request->token){
 
 							echo $objFun->getCartaContacto($cliente_nombre,'http://corporacionpacifico.com.pe/');
 							//echo "¡El formulario se ha enviado con éxito!";
-							require_once("Librerias/NoDBClass.php");
-							$objNOSQL= new NoDBClass();
-							$data['id']=time();
-							$data['fecha']=date("Y-m-d H:i:s");
-							$data['nombre']=$cliente_nombre;
-							$data['email']=$cliente_mail;						
-							$objNOSQL->guardar($data);
+
 
 						} catch (Exception $e) {
 							echo 'Excepción capturada: ',  $e->getMessage(), "\n";
