@@ -1,7 +1,7 @@
 <?php
 
 //OBTENER NOMBRE DE ARCHIVO QUE SE ESTA  EJECUTANDO
-$nombre_archivo = $_SERVER['SCRIPT_NAME'];
+$nombre_archivo = (isset($_SERVER['SCRIPT_NAME']));
 //verificamos si en la ruta nos han indicado el directorio en el que se encuentra
 if (!empty($nombre_archivo)) {
     if (strpos($nombre_archivo, '/') !== FALSE) {
