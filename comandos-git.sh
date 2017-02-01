@@ -3,10 +3,11 @@
 fuente mejor:
 https://git-scm.com/book/es/v1/Empezando-Configurando-Git-por-primera-vez
 #----------------------------configurando para este proyecto
-# $ git config --global user.name "John Doe"
-# $ git config --global user.email cesar@example.com
+# $ git config --global user.name "cesar ide.c9.io"
+# $ git config --global user.email cesar@ide.c9.io
 git config  user.name "Cesar Auris"
 git config  user.email solito_203@hotmail.com
+ssh-keygen 
 #---------------------------------------------------------
 
 echo "# corporacionpacifico_com_pe" >> README.md
@@ -21,6 +22,7 @@ git push -u origin master
 git remote add origin git@github.com:cesar23/corporacionpacifico_com_pe.git
 #git push -u origin master
 git pull -u origin master #--------IMPORTANTE
+git pull -u origin master && git commit -am "05:47 p.m. 31/01/2017" && git push origin master
 
 
 #---------- para cuando ya estea  todo bajado solo se remite a comitear loas cambios
